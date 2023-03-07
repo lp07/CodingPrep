@@ -7,4 +7,4 @@ class Solution:
                     return ans
             ans += strs[0][i]
         return ans                    
-                   
+                  
