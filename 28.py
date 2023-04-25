@@ -25,5 +25,6 @@ class Solution:
 s = Solution()
 haystack = "sadbutsad"
 needle = "sad"
-print(s.strStr(haystack, needle))  # Output: 6
+print(s.strStr(haystack, needle)) 
+# Output: 0
 
