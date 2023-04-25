@@ -7,7 +7,6 @@
 # Input: haystack = "leetcode", needle = "leeto", Output: -1
 # Explanation: "leeto" did not occur in "leetcode", so we return -1.
 
-# TC = O(n)
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if not needle:
