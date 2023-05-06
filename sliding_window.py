@@ -1,3 +1,4 @@
+# Find the maximum sum of the array 
 # array = [16, 12, 9, 19, 11, 8]
 # APPROACH
 # 1. Add the first k components together and save it to currentSum variable
