@@ -30,7 +30,10 @@ class Solution:
         return isMirror(root.left, root.right)
 
 
-    root = TreeNode(1, TreeNode(2), TreeNode(3), TreeNode(4)), TreeNode(2, TreeNode(3), TreeNode(2))
-    print(isSymmetric(root))
+root = TreeNode(1)
+root.left = TreeNode(2, TreeNode(3), TreeNode(4))
+root.right = TreeNode(2, TreeNode(3), TreeNode(4))
+sol = Solution()
+print(sol.isSymmetric(root))
 
-    # Output: True
+# Output: False
