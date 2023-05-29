@@ -19,6 +19,11 @@
 # The isBadVersion API is already defined for you.
 # def isBadVersion(version: int) -> bool:
 
+def isBadVersion(version: int) -> bool:
+    if version == 4:
+        return True
+    return False
+
 class Solution:
     def firstBadVersion(self, n: int) -> int:
         low = 0
@@ -30,6 +35,9 @@ class Solution:
             else:
                 high = mid - 1
         return low
-
+solution = Solution()
+n = 5
+print(solution.firstBadVersion(n))
+# Output: 4
 
 
